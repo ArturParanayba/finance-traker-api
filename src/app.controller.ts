@@ -9,7 +9,7 @@ export class AppController {
   async getDatabaseTest() {
     const user = await this.prisma.user.create({
       data: {
-        id: '11a2b',
+        id: 1,
         name: 'Artur',
         email: 'artur.paranayba@gmail.com',
         password: '123456',
